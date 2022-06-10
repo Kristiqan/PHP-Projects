@@ -1,13 +1,11 @@
 <?php
 session_start();
 
-// refactor the code :
 // user must provide USERNAME and PASSWORD - done
 // we check USERNAME == 'admin' and PASSWORD == 'secret' - done
 // if match -> login succsefull - done 
 // save login infromation into session array - done
 // else -> show login form - done
-// extra* -> show wrong user/pass msg - done
 
         if(isset($_POST['Submit'])){
             
