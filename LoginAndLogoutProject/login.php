@@ -3,8 +3,8 @@ session_start();
 
 // user must provide USERNAME and PASSWORD - done
 // we check USERNAME == 'admin' and PASSWORD == 'secret' - done
-// if match -> login succsefull - done 
-// save login infromation into session array - done
+// if match -> login successful - done
+// save login information into session array - done
 // else -> show login form - done
 
         if(isset($_POST['Submit'])){
@@ -12,8 +12,8 @@ session_start();
             $logins = array('admin' => 'secret');
             
         
-            $Username = isset($_POST['Username']) ? $_POST['Username'] : '';
-            $Password = isset($_POST['Password']) ? $_POST['Password'] : '';
+            $Username = isset($_POST['Username']) ?? $_POST['Username'] ; '';
+            $Password = isset($_POST['Password']) ?? $_POST['Password'] ; '';
             
                        
             if (isset($logins[$Username]) && $logins[$Username] == $Password){
