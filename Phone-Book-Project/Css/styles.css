@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Ubuntu:wght@300&display=swap');
+
+body {
+   margin: 0;
+   padding: 0;
+    font-family: 'Edu SA Beginner', cursive;
+    font-family: 'Ubuntu', sans-serif;
+    background-image: url("../images/background-image.jpeg");
+  }
+
+  .btn-secondary  {
+    color: white !important;
+    background-color:  #182E67 !important;
+    margin-right: 10px;
+  }
+
+  .btn-outline-dark{
+    color: white !important;
+    margin-right: 10px;
+  }
+
+  .btn-outline-dark:hover{
+    background-color: #3C445C !important;
+  }
+  .btn-outline-info:hover{
+    background-color: #556F7C !important;
+    color: white !important;
+    margin-right: 10px;
+  }
+
+.banner-image
+{
+position: relative;
+min-height: 100vh;
+background:rgba(0,0,0,0.7)url(../img/Banner.jpg);
+background-size: cover;
+background-position: center;
+padding: 250px 0 200px;
+margin-bottom: -30px;
+background-blend-mode: darken;
+}
+
+h1
+{
+    margin-bottom: 60px;
+    margin-top: 50px;
+}
+.AboutUS
+{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.img-sizes
+{
+    flex-basis: 32%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img-sizes img 
+{
+    width: 500px;
+    display: block;
+    height: 400px;
+}
+
+.img-overlay 
+{
+    background: transparent;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 16px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.img-overlay:hover 
+{
+    background: rgba(44, 39, 39, 0.918);
+}
+
+
+.img-overlay h3 
+{
+    width: 100%;
+    font-weight: 500;
+    color: white;
+    font-size: 26px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+
+.img-overlay:hover h3 
+{
+    bottom: 49%;
+    opacity: 1;
+}
