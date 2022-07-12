@@ -13,10 +13,10 @@
 <nav class="navbar navbar-light justify-content-end"  style="background-color:#556F7C;">
 <ul class="nav">
   <li class="nav-item">
-    <a class="nav-link btn btn-secondary" aria-current="page" href="#">Login</a>
+    <a class="nav-link btn btn-secondary" aria-current="page" href="LoginForm.php">Login</a>
   </li>
   <li class="nav-item ">
-    <a class="nav-link btn btn-outline-dark" aria-current="page" href="#">Register</a>
+    <a class="nav-link btn btn-outline-dark" aria-current="page" href="RegistrationForm.php">Register</a>
   </li>
 </ul>
 </nav>
