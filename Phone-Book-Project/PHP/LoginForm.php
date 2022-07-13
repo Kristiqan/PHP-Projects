@@ -18,8 +18,10 @@ if($_SERVER['REQUEST_METHOD']=='POST')
   	$res_e = mysqli_query($con, $sql_e);
 
   	if (mysqli_num_rows($res_u) == 1 && mysqli_num_rows($res_e) == 1) {
+      
       $_SESSION["Username"] = $username;
-      header("Location: index.php");
+     
+      header("Location: ContactsPage.php");
   	}else{
   	  $InvalidLogin = true;
   	}
